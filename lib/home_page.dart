@@ -7,9 +7,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Image Example"),
+        backgroundColor: Colors.blue,
+        title: Text("Image Example",style: TextStyle(
+          color: Colors.white
+        ),),
       ),
-      body: SingleChildScrollView(
+      body: Center(
         child: Column(
           children: <Widget>[
             Image.asset(
@@ -26,14 +29,8 @@ class HomePage extends StatelessWidget {
               height: 200,
               width: 200,
             ),
-            Text("This is a flutter logo from network"),
-            FadeInImage.assetNetwork(
-                placeholder: 'assets/images/flutter_logo.png',
-                image:
-                    'https://www.amarmp.com/propic/profile/101_1480570259.png',
-                height: 300,
-                width: 250),
-            Text("This is a fade in image"),
+            Text("This is a image loading from network"),
+
           ],
         ),
       ),

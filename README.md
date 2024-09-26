@@ -1,6 +1,8 @@
 # flutter_image
 
-A new Flutter project.
+Flutter Image example
+
+![screenshot](screenshot.png)
 
 ## Getting Started
 
