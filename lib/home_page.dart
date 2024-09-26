@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text("Image Example",style: TextStyle(
+        title: const Text("Image Example",style: TextStyle(
           color: Colors.white
         ),),
       ),

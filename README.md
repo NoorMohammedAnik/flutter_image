@@ -2,7 +2,7 @@
 
 Flutter Image example
 
-![screenshot](screenshot.png)
+![screenshot](assets/images/screenshot.png)
 
 
 ## Getting Started
