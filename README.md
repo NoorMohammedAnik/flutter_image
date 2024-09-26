@@ -3,6 +3,7 @@
 Flutter Image example
 
 ![screenshot](screenshot.png)
+![screenshot](screenshot.png)
 
 ## Getting Started
 
